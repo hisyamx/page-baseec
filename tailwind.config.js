@@ -319,6 +319,8 @@ module.exports = {
       },
     },
   },
+  theme: {
+  },
   variants: {
     scale: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
