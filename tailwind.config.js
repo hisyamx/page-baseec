@@ -1,4 +1,3 @@
-const colors = require('tailwindcss/colors')
 const plugin = require('tailwindcss/plugin')
 const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
@@ -8,6 +7,7 @@ module.exports = {
         Poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
       },
       colors: {
+        primary: '#051e3d',
         red: {
           '50': '#ffebee',
           '100': '#ffcdd2',
