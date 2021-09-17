@@ -10,7 +10,11 @@ module.exports = {
       poppins: ["poppins, sans-serif"]
     },
     boxShadow: {
-      custom: '0px 0px 80px rgba(47, 65, 88, 0.1);',
+      '3xl': '0px 0px 80px rgba(47, 65, 88, 0.1);',
+    },
+    borderRadius: {
+      lg: '45px',
+      md: '30px',
     },
     screens: {
       sm: '640px',
@@ -20,6 +24,8 @@ module.exports = {
       '2xl': '1536px',
     },
     colors: {
+      navy: '#051E3D',
+
       transparent: 'transparent',
       current: 'currentColor',
 
