@@ -1,12 +1,12 @@
 {
-  "name": "baseec-page",
+  "name": "Baseec Tech Landing Page",
   "version": "1.0.0",
-  "description": "",
+  "description": "Baseec Tech is a business venture in the field of technology. Providing various services that not only focus on software development but also offer services in the field of design and data.",
   "main": "index.js",
   "scripts": {
     "build:tailwinds": "tailwind build -i src/style.css -o public/css/style.css"
   },
-  "keywords": [],
+  "keywords": ["Baseec, Baseec Tech, Baseec Landing Page, Baseec Software House, Web Development, Graphic Design, Freelance, Software, Hardware"],
   "author": "",
   "license": "ISC",
   "devDependencies": {
