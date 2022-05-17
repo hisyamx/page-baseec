@@ -4,7 +4,8 @@
   "description": "Baseec Tech is a business venture in the field of technology. Providing various services that not only focus on software development but also offer services in the field of design and data.",
   "main": "index.js",
   "scripts": {
-    "build:tailwinds": "tailwind build -i src/style.css -o public/css/style.css"
+    "build:tailwinds": "tailwind build -i src/style.css -o public/css/style.css",
+    "dev:tailwinds": "tailwind build -i src/style.css -o public/css/style.css --watch"
   },
   "keywords": [
     "Baseec, Baseec Tech, Baseec Landing Page, Baseec Software House, Web Development, Graphic Design, Freelance, Software, Hardware"
@@ -13,11 +14,14 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.0",
-    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.1",
     "@tailwindcss/line-clamp": "^0.3.1",
     "@tailwindcss/typography": "^0.5.0",
     "autoprefixer": "^10.3.2",
     "postcss": "^8.4.5",
     "tailwindcss": "^3.0.15"
+  },
+  "dependencies": {
+    "flowbite": "^1.4.5"
   }
 }
