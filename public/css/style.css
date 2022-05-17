@@ -1229,6 +1229,10 @@ select {
   max-width: 510px;
 }
 
+.max-w-full {
+  max-width: 100%;
+}
+
 .origin-top-right {
   transform-origin: top right;
 }
